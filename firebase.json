@@ -1,0 +1,33 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "tiktok-6ee9f",
+          "appId": "1:856566244617:android:50c6614b80f5d8245a9fd8",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "tiktok-6ee9f",
+          "appId": "1:856566244617:ios:76a48d18532212f35a9fd8",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "tiktok-6ee9f",
+          "configurations": {
+            "android": "1:856566244617:android:50c6614b80f5d8245a9fd8",
+            "ios": "1:856566244617:ios:76a48d18532212f35a9fd8"
+          }
+        }
+      }
+    }
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}
